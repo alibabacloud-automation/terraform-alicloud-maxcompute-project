@@ -1,2 +1,2 @@
-# terraform-alicoud-maxcompute-project
+# terraform-alicloud-maxcompute-project
 Terraform module for creating a MaxCompute project on Alibaba Cloud RDS Service.
