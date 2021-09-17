@@ -39,7 +39,7 @@ module "maxcompute"  {
 
 作者
 -------
-Created and maintained by Guo Zhenhong(523890344@qq.com) and He Guimin(@xiaozhu36, heguimin36@163.com)
+Created and maintained by Alibaba Cloud Terraform Team(terraform@alibabacloud.com)
 
 许可
 ----
