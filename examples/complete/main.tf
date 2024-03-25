@@ -18,7 +18,8 @@ module "maxcompute_project" {
   profile = var.profile
 
   #project
-  name               = "my_mc_project"
-  specification_type = "OdpsStandard"
-  order_type         = "PayAsYouGo"
+  name          = "my_mc_project"
+  default_quota = "默认后付费Quota"
+  comment       = "my_mc_project"
+  product_type  = "PayAsYouGo"
 }

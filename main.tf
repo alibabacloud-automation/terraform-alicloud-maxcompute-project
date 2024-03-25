@@ -1,5 +1,13 @@
 resource "alicloud_maxcompute_project" "this" {
-  name               = var.name
-  specification_type = var.specification_type
-  order_type         = var.order_type
+  project_name  = var.name
+  product_type  = var.product_type
+  comment       = var.comment
+  default_quota = var.default_quota
+  dynamic "ip_white_list" {
+    for_each = var.ip_white_list
+    content {
+      ip_list     = var.ip_white_list.value["ip_list"]
+      vpc_ip_list = var.ip_white_list.value["vpc_ip_list"]
+    }
+  }
 }
