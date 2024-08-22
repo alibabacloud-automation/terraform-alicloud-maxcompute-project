@@ -1,4 +1,8 @@
-## 1.3.0 (Unreleased)
+## 1.4.0 (Unreleased)
+## 1.3.0 (August 22, 2024)
+
+- module: improve output [GH-6](https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project/pull/6)
+
 ## 1.2.0 (March 25, 2024)
 
 IMPROVEMENTS:
