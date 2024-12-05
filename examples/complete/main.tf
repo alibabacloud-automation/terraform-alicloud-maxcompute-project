@@ -6,4 +6,5 @@ module "maxcompute_project" {
   default_quota = "默认后付费Quota"
   comment       = "my_mc_project"
   product_type  = "PayAsYouGo"
+  is_logical    = false
 }

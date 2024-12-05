@@ -33,3 +33,9 @@ variable "ip_white_list" {
   }))
   default = []
 }
+
+variable "is_logical" {
+  description = "Logical deletion, value: (true/false) true: In this case, the project status will be changed to 'DELETING' and completely deleted after 14 days. false: immediately deleted, that is, completely deleted, permanently unrecoverable. "
+  type        = bool
+  default     = null
+}
