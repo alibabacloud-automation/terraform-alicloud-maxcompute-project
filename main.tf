@@ -3,6 +3,7 @@ resource "alicloud_maxcompute_project" "this" {
   product_type  = var.product_type
   comment       = var.comment
   default_quota = var.default_quota
+  is_logical    = var.is_logical
   dynamic "ip_white_list" {
     for_each = var.ip_white_list
     content {
