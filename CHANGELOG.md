@@ -1,4 +1,9 @@
-## 1.4.0 (Unreleased)
+## 1.5.0 (Unreleased)
+## 1.4.0 (December 5, 2024)
+
+- Module/alicloud_maxcompute_project: support attribute is_logical [GH-8](https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project/pull/8)
+- examples: improve the examples [GH-7](https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project/pull/7)
+
 ## 1.3.0 (August 22, 2024)
 
 - module: improve output [GH-6](https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project/pull/6)
