@@ -1,3 +1,14 @@
+## [2.0.0](https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project/compare/v1.4.0...v2.0.0) (2026-04-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* add provider version constraint for aliyun/alicloud
+
+### Features
+
+* add provider version constraint for aliyun/alicloud ([1c8f3f0](https://github.com/alibabacloud-automation/terraform-alicloud-maxcompute-project/commit/1c8f3f070ce0a62bd9a0a19015c45dd7a299f61e))
+
 ## 1.5.0 (Unreleased)
 ## 1.4.0 (December 5, 2024)
 
